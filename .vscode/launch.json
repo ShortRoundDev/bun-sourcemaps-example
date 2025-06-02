@@ -3,7 +3,7 @@
         {
             "type": "firefox",
             "request": "launch",
-            "name": "Ads Core Web",
+            "name": "Debug",
             "url": "http://localhost:3000/index.html",
             "webRoot": "${workspaceFolder}/src"
         }

@@ -1,21 +1,9 @@
-# bun-react-template
+# bun-sourcemaps-example
 
-To install dependencies:
+To test broken sourcemaps:
 
-```bash
-bun install
-```
-
-To start a development server:
-
-```bash
-bun dev
-```
-
-To run for production:
-
-```bash
-bun start
-```
-
-This project was created using `bun init` in bun v1.2.10. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+1. Run `bun dev`
+2. Open VSCode
+3. Place a breakpoint at line 8 of App.tsx
+4. Run "Debug" profile
+5. Breakpoint does not appear on the correct line
